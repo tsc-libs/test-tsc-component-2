@@ -1,6 +1,6 @@
 {
-  "name": "@snyk-labs/modern-npm-package",
-  "version": "0.0.0-development",
+  "name": "@tsc-libs/test-tsc-component-2",
+  "version": "0.0.1",
   "description": "An npm package for demonstration purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
   "exports": {
     ".": {
@@ -34,11 +34,11 @@
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/snyk-labs/modern-npm-package.git"
+    "url": "https://github.com/tsc-libs/test-tsc-component-2.git"
   },
   "keywords": [
     "npm",
@@ -53,12 +53,12 @@
     "example",
     "demonstration"
   ],
-  "author": "Snyk Labs",
+  "author": "Alex <alex@milyutin.work>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snyk-labs/modern-npm-package/issues"
+    "url": "https://github.com/tsc-libs/test-tsc-component-2/issues"
   },
-  "homepage": "https://github.com/snyk-labs/modern-npm-package#readme",
+  "homepage": "https://github.com/tsc-libs/test-tsc-component-2#readme",
   "devDependencies": {
     "@types/mocha": "^9.1.1",
     "mocha": "^10.0.0",
